@@ -11,8 +11,8 @@ class Vendedor : public Empregado {
 
   public: 
     Vendedor(std::string nome, double salarioHora, double quotaMensalVendas); 
-	void setQuotaMensalVendas(double quotaMensalVendas);
-	double quotaTotalAnual();
+    void setQuotaMensalVendas(double quotaMensalVendas);
+    double quotaTotalAnual();
     void informacoes(double horasTrabalhadas) override; 
 	
 };
